@@ -37,7 +37,9 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
+
 ![Screenshot 2024-11-28 111318](https://github.com/user-attachments/assets/91a62e2d-3715-4a24-b4d6-4474d6d846b6)
+
 ![Screenshot 2024-11-28 111332](https://github.com/user-attachments/assets/4ee8afb0-5781-40b3-833f-b996f2f11085)
 
 **Procedure**
@@ -89,9 +91,11 @@ assign borrow= ( ( a & b)| ( bin & ((a ^ b ))));
 
 ```
 **RTL Schematic**
+
 ![Screenshot 2024-11-28 112042](https://github.com/user-attachments/assets/286c6bf5-0729-4f42-bc71-7feaf5190279)
 
 **Output Timing Waveform**
+
 ![Screenshot 2024-11-28 112147](https://github.com/user-attachments/assets/8ad010b5-1204-4d83-9b80-661518bf3edf)
 
 **Result:**
